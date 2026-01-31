@@ -14,7 +14,7 @@ let package = Package(
             targets: ["SwiftCraftShortcuts"]),
     ],
     dependencies: [
-        .package(path: "../SwiftCraft")
+        .package(url: "https://github.com/michaeldmueller/SwiftCraft", branch: "main")
     ],
     targets: [
         .target(
